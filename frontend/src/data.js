@@ -1,40 +1,53 @@
-export default {
-    products:[
-        {
-            name: 'Slim Shirt',
-            category: 'Shirts',
-            image:'/images/d1.jpg',
-            price: 60,
-            brand: 'Nike',
-            rating: 4.5,
-            numReviews: 10
-        },
-        {
-            name: 'Fit Shirt',
-            category: 'Shirts',
-            image:'/images/d1.jpg',
-            price: 50,
-            brand: 'Uniqlo',
-            rating: 4.0,
-            numReviews: 9
-        },
-        {
-            name: 'Best Pants',
-            category: 'Pants',
-            image:'/images/d1.jpg',
-            price: 70,
-            brand: 'Adidas',
-            rating: 3.5,
-            numReviews: 8
-        },
-        {
-            name: 'Best Pants',
-            category: 'Pants',
-            image:'/images/d1.jpg',
-            price: 70,
-            brand: 'Adidas',
-            rating: 3.5,
-            numReviews: 8
-        },
-    ]
-}
+const data = {
+  products: [
+    {
+      name: "Nike Slim Shirt",
+      slug: 'nike-slim-shirt',
+      category: "Shirts",
+      image: "/images/d1.jpg",
+      price: 60,
+      countInStock: 10,
+      brand: "Nike",
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality shirt',
+    },
+    {
+        name: "Adidas Fit Shirt",
+        slug: 'adidas-fit-shirt',
+        category: "Shirts",
+        image: "/images/d2.jpg",
+        price: 160,
+        countInStock: 20,
+        brand: "Nike",
+        rating: 4.0,
+        numReviews: 15,
+        description: 'high quality product',
+    },
+    {
+        name: "Nike Slim Pant",
+        slug: 'nike-slim-pant',
+        category: "Pants",
+        image: "/images/d3.jpg",
+        price: 50,
+        countInStock: 8,
+        brand: "Nike",
+        rating: 3.5,
+        numReviews: 20,
+        description: 'high quality pant',
+    },
+    {
+        name: "Adidas fit pant",
+        slug: 'adidas-fit-pant',
+        category: "Pants",
+        image: "/images/d4.jpg",
+        price: 70,
+        countInStock: 12,
+        brand: "Nike",
+        rating: 3.5,
+        numReviews: 14,
+        description: 'high quality pants',
+    },
+  ],
+};
+export default data;
